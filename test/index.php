@@ -5,7 +5,7 @@
 $dbname = 'mysql';
 $dbuser = 'QuitScope2';
 $dbpass = 'Kd101301.';
-$dbhost = '127.0.0.1';
+$dbhost = '5.230.22.129';
 
 $link = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Unable to Connect to '$dbhost'");
 mysqli_select_db($link, $dbname) or die("Could not open the db '$dbname'");
